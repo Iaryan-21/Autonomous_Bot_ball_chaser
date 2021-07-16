@@ -24,7 +24,7 @@ void process_image_callback(const sensor_msgs::Image img)
         auto green = img.data[i+1];
         auto blue = img.data[i+2];
 
-        if(red == 2555 && green == 255 && blue ==255){
+        if(red == 255 && green == 255 && blue ==255){
             auto col = i% img.step;
             if(col < img.step*0.4){
                 side = LEFT;    
