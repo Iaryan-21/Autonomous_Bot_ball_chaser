@@ -11,7 +11,7 @@
       <child link="chassis"/>
     </joint>
     
-    <link name='chassis'>
+    <link name="chassis">
      <pose>0 0 0.1 0 0 0</pose>
       
      <inertial>
@@ -66,7 +66,7 @@
         </geometry>
      </visual>
     </link>
-   <link name='left_wheel'> 
+   <link name="left_wheel"> 
       <inertial>
       <origin xyz="0 0 0" rpy="0 1.5707 1.5707"/>
       <mass value="5.0"/>
@@ -117,7 +117,7 @@
     </link>
    
        
-       <joint name="right_wheel_hinge" type="continuous" >
+       <joint name="right_wheel_hinge" type="continuous">
         <origin xyz="0 -0.125 0" rpy="0 0 0"/>
         <child link="right_wheel"/>
         <parent link="chassis"/>
