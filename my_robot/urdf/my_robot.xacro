@@ -196,10 +196,21 @@
        <parent link="chassis"/>
        <child link="hokuyo"/>
      </joint>
-
-
-             
     
+    <gazebo reference="chassis">
+      <material>Gazebo/Green</material>
+    </gazebo>
+    <gazebo reference="right-wheel">
+      <material>Gazebo/Black</material>
+    </gazebo>
+    <gazebo reference="left_wheel">
+      <material>Gazebo/Black</material>
+    </gazebo>
+    <gazebo reference="camera">
+     <material>Gazebo/white</material>
+    </gazebo> 
+
+               
 </robot>
 
    
