@@ -200,7 +200,7 @@
     <gazebo reference="chassis">
       <material>Gazebo/Green</material>
     </gazebo>
-    <gazebo reference="right-wheel">
+    <gazebo reference="right_wheel">
       <material>Gazebo/Black</material>
     </gazebo>
     <gazebo reference="left_wheel">
