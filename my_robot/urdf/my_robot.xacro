@@ -117,7 +117,7 @@
     </link>
    
        
-       <joint name="right_wheel_hinge" type="continous" >
+       <joint name="right_wheel_hinge" type="continuous" >
         <origin xyz="0 -0.125 0" rpy="0 0 0"/>
         <child link="right_wheel"/>
         <parent link="chassis"/>
@@ -126,7 +126,7 @@
         <dynamics damping="1.0" friction="1.0"/>
        </joint>
 
-       <joint name="left_wheel_hinge" type="continous">
+       <joint name="left_wheel_hinge" type="continuous">
         <origin xyz="0 0.125 0" rpy="0 0 0"/>
         <child link="left_wheel"/>
         <parent link="chassis"/>
