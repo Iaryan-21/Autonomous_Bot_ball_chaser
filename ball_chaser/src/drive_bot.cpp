@@ -25,7 +25,7 @@ int main (int argc, char** argv)
     ros::init(argc, argv, "drive_bot");
     ros::NodeHandle n;
     motor_command_publisher = n.advertise<geometry_msgs::Twist>("/cmd_vel", 10);
-    ros::ServiceServer service= n.advertiseService("/ball_chaser/comand_robot", handle_drive_request);
+    ros::ServiceServer service= n.advertiseService("/ball_chaser/command_robot", handle_drive_request);
     ROS_INFO("Bot is ready");
     ros::spin();
 
