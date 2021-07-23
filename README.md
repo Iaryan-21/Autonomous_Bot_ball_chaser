@@ -46,8 +46,8 @@ ball_chaser: This package contains two ROS nodes for commanding the robot to cha
 ```
 $ mkdir catkin_ws 
 $ cd catkin_ws
-$ git clone https://github.com/Iaryan-21/GoChaseIt.git 
-$ mv GoChaseIt src
+$ git clone https://github.com/Iaryan-21/Autonomous_bot_ball_chaser.git 
+$ mv Autonomous_bot_ball_chaser src
 $ cd src && catkin_init_workspace
 ```
 #### 2. Move back to catkin_ws and build ####
