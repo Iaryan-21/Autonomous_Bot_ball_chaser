@@ -9,7 +9,7 @@
 # STRUCTURE #
 
 ```
-.RoboND-Go-Chase-It                # Go Chase It Project
+.Autonomous_Bot_ball_chaser               # Project
 ├── my_robot                       # my_robot package
 │   ├── launch                     # launch folder for launch files
 │   │   ├── robot_description.launch
